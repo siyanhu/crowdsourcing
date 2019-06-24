@@ -1,0 +1,14 @@
+cycler==0.10.0
+functools32
+-e git://github.com/matplotlib/matplotlib.git@5dfe000d6ce42b8acf261c5cdb18a22fa1d62301#egg=matplotlib
+natgrid
+numpy
+pandas==0.18.1
+Pillow==3.3.0
+pyparsing==2.1.5
+python-dateutil==2.5.3
+pytz==2016.4
+scikit-learn==0.17.1
+scipy==0.17.1
+six==1.10.0
+sklearn==0.0

@@ -1,0 +1,15 @@
+{
+  "name": "analyticsnode",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.21.2",
+    "jade": "1.11.0",
+    "aws-sdk": "2.4.7",
+    "moment": "2.14.1",
+    "uuid-v4": "0.1.0"
+  }
+}

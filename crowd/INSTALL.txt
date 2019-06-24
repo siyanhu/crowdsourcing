@@ -1,0 +1,11 @@
+sudo apt-get -y install gfortran
+sudo apt-get -y install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+sudo apt-get -y install liblapack-dev libblas-dev
+sudo apt-get -y install libfreetype6-dev libxft-dev
+#sudo apt-get install build-dep python-matplotlib
+#pip install matplotlib --upgrade
+For Mac, create ~/.matplotlib/matplotlibrc and add the following code: backend: TkAgg
+If running into installation problem for pillow, read http://stackoverflow.com/questions/36563613/python-pillow-not-installing-under-osx
+http://stackoverflow.com/questions/34631806/fail-during-installation-of-pillow-python-module-in-linux
+brew install libjpeg zlib
+must do brew link zlib --force
